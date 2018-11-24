@@ -1,0 +1,1 @@
+# egghead-js-prototypal-inheritance
