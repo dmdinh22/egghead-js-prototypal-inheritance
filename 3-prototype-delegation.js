@@ -11,4 +11,15 @@ console.log(Car.prototype); // Car { color: 'black', wheels: 4 }
 
 const myCar = new Car('Ford');
 
+console.log(myCar); // Car { make: 'Ford', wheels: 1 }
 console.log(myCar.color); // black
+console.log(myCar.wheels); // 1
+
+console.log([]); // []
+console.log({}); // {}
+
+const obj = new Object();
+const arr = new Array();
+
+console.log(obj); // {}
+console.log(arr); // []
